@@ -348,3 +348,43 @@ Pr2 {
   rotation -3.3891510791584073e-09 0.7068252250641434 0.7073882252434113 3.14159
   controller "pr2_controller"
 }
+Moose {
+  translation 408.231 -0.41 -408.466
+  rotation 0 1 0 3.14
+  controller "Stig_controller"
+  bodySlot [
+    Compass {
+      rotation 1 0 0 1.5708
+    }
+    GPS {
+      rotation 1 0 0 1.5708
+    }
+  ]
+  name "Stig"
+}
+Pr2 {
+  translation 408.231 -0.41 -410.966
+  rotation -3.3891510791584073e-09 0.7068252250641434 0.7073882252434113 3.14159
+  controller "DeliveryRobot_controller"
+  name "DeliveryRobot"
+}
+Pr2 {
+  translation 408.231 -0.41 -413.466
+  rotation -3.3891510791584073e-09 0.7068252250641434 0.7073882252434113 3.14159
+  controller "ReceiveRobot_controller"
+  name "ReceiveRobot"
+}
+Moose {
+  translation 408.231 -0.41 -415.966
+  rotation 0 1 0 3.14
+  controller "ransporter_controller"
+  bodySlot [
+    Compass {
+      rotation 1 0 0 1.5708
+    }
+    GPS {
+      rotation 1 0 0 1.5708
+    }
+  ]
+  name "ransporter"
+}

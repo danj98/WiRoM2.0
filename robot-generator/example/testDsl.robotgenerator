@@ -1,1 +1,1 @@
-addRobot(moose, "Stig1", 3, 3);
+addRobot(moose, "ransporter", 2, 1);
