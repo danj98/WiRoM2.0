@@ -2,7 +2,7 @@
 
 The results were a bit mixed. WiRom 2 and Webot ran as expected, but the included world file did not.
 I therefore attempted to create my own world:
-![world]([assets/new-world.png](https://github.com/danj98/WiRoM2.0/blob/master/assets/new-world.png))
+![world](https://github.com/danj98/WiRoM2.0/blob/master/assets/new-world.png)
 
 # Custom mission
 I attempted to make my own mission using the web interface. I added the robots needed in the DSL editor: DeliveryRobot, Transporter and ReceiveRobot,
